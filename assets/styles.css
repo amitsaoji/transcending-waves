@@ -9,3 +9,38 @@
   font-weight: bold;
   padding: 10px 0;
 }
+
+.threeColumnContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+  background: #ffffff;
+}
+
+.columnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+}
+
+.columnImage{
+  width: 250px;
+  height: 100px;
+}
+
+.columnTitle {
+  font-size: 29px;
+  color: black;
+  margin-top: 16px;
+}
+
+.columnText {
+  font-size: 18px;
+  line-height: 27px;
+  color: black;
+  margin-top: 16px;
+}
